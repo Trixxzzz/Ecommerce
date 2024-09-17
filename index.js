@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import path from 'path';
 import connectDB from "./Config/Db.js";
-import userRoutes from './Routes/UserRoutes.js';
+import userRoutes from './Routes/userRoutes.js';
 import categoryRoutes from "./Routes/categoryRoutes.js"
 import productRoutes from "./Routes/productRoutes.js"
 import uploadRoutes from "./Routes/uploadRoutes.js"
